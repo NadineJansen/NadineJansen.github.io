@@ -8,7 +8,7 @@
 */
 
 
-.back-to-top:hover,.bg-custom,.btn-custom,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+/*.back-to-top:hover,.bg-custom,.btn-custom,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
 .navbar-custom  {
   background-color: #01bf86 !important;
 }
@@ -24,6 +24,24 @@
 
 .intro-form input:focus {
   border: 1px solid #01bf86;
+}*/
+
+.back-to-top:hover,.bg-custom,.btn-custom,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+.navbar-custom  {
+  background-color: rgb(121,191,181); !important;
+}
+
+.btn-white-fill,.text-custom,.btn-white-bordered:hover,.btn-custom:hover,.features-box i,
+.pricing-column .plan-title {
+  color: rgb(121,191,181) !important;
+}
+
+.btn-custom {
+  border: 2px solid rgb(121,191,181)!important;
+}
+
+.intro-form input:focus {
+  border: 1px solid rgb(121,191,181);
 }
 
 
@@ -32,20 +50,20 @@
 /*
 .back-to-top:hover,.bg-custom,.btn-custom,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
 .navbar-custom  {
-  background-color: rgb(183,188,22) !important;
+  background-color: rgb !important;
 }
 
 .btn-white-fill,.text-custom,.btn-white-bordered:hover,.btn-custom:hover,.features-box i,
 .pricing-column .plan-title {
-  color: rgb(183,188,22) !important;
+  color: rgb !important;
 }
 
 .btn-custom {
-  border: 2px solid rgb(183,188,22) !important;
+  border: 2px solid rgb !important;
 }
 
 .intro-form input:focus {
-  border: 1px solid rgb(183,188,22);
+  border: 1px solid rgb;
 }
 */
 
