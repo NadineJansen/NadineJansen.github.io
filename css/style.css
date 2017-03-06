@@ -149,6 +149,11 @@ a:hover,a:focus,.a:active {
   background-size: cover;
 }
 
+.bg-img-3 {
+  background: url("../images/home-boven.jpg") center no-repeat;
+  background-size: cover;
+}
+
 /*======= 3.Buttons ======= */
 .btn {
   border-radius: 2px;
@@ -381,7 +386,8 @@ a:hover,a:focus,.a:active {
 }
 
 .home-wrapper {
-  padding: 150px 0px 120px 0px;
+  padding: 150px 0px 90px 0px;
+  /*padding: 155px 0px 100px 0px;*/
 }
 
 .home-sm {
@@ -641,11 +647,12 @@ label.valid {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2f3e47;
+  /*background-color: rgb(179,179,179);*/
+  background-color: #f3f6fa;
 }
 
 .footer h5{
-  color: #ffffff;
+  color: #496174;
   font-size: 15px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -653,11 +660,12 @@ label.valid {
 }
 
 .footer a{
-  color: rgba(255, 255, 255, 0.4);;
+  color: #496174;
 }
 
 .footer a:hover{
-  color: rgba(255, 255, 255, 0.6);;
+  opacity: 0.6;
+  /*color: rgba(85, 85, 85, 0.6);;*/
 }
 
 .footer ul li {
@@ -670,7 +678,7 @@ label.valid {
 }
 
 .footer address {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(85, 85, 85, 1);
   line-height: 24px;
   font-size: 13px;
 }
@@ -887,4 +895,27 @@ textarea.form-control {
     margin-bottom: 50px;
     text-align: center;
   }
+}
+
+
+
+
+.bigger-icon{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.border-box{
+  /*margin-top: 40px;*/
+    /*margin: 20px auto 0px auto;*/
+    padding: 20px 30px 20px;
+    border: 2px solid #95A8B7;
+}
+
+.second-title{
+  margin-top: 20px;
+}
+
+.second-title h3{
+  font-size: 18px;
 }
