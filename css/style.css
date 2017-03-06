@@ -906,7 +906,8 @@ textarea.form-control {
 }
 
 .border-box{
-  margin: 0 10px;
+  margin: 50px 10px 50px;
+  /*margin: 0 10px;*/
   /*margin-top: 40px;*/
     /*margin: 20px auto 0px auto;*/
     padding: 20px 30px 20px;
@@ -914,9 +915,15 @@ textarea.form-control {
 }
 
 .second-title{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .second-title h3{
-  font-size: 18px;
+   margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.border-box .plan-title{
+  font-size: 17px;
 }
