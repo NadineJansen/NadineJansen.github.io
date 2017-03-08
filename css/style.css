@@ -969,3 +969,7 @@ textarea.form-control {
 .sub-section{
   margin-top: 50px;
 }
+
+.foto{
+  max-width: 250px;
+}
