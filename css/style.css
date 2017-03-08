@@ -154,6 +154,16 @@ a:hover,a:focus,.a:active {
   background-size: cover;
 }
 
+.bg-img-4{
+  background: url("../images/home-bijgesneden.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.bg-img-5{
+  background: url("../images/home-bijgesneden2.jpg") center no-repeat;
+  background-size: cover;
+}
+
 /*======= 3.Buttons ======= */
 .btn {
   border-radius: 2px;
@@ -895,6 +905,12 @@ textarea.form-control {
     margin-bottom: 50px;
     text-align: center;
   }
+  .feat-description2{
+    margin-bottom: 50px;
+    margin-top:25px;
+    text-align: center;
+    ;
+  }
 }
 
 
@@ -906,12 +922,14 @@ textarea.form-control {
 }
 
 .border-box{
+  max-width: 340px;
   margin: 50px 10px 50px;
   /*margin: 0 10px;*/
   /*margin-top: 40px;*/
     /*margin: 20px auto 0px auto;*/
-    padding: 20px 30px 20px;
+    padding: 20px 30px 25px;
     border: 2px solid #95A8B7;
+    border-radius: 50px;
 }
 
 .second-title{
@@ -926,4 +944,28 @@ textarea.form-control {
 
 .border-box .plan-title{
   font-size: 17px;
+}
+
+.text-klassen{
+  padding: 0 35px;
+  min-height: 320px;
+}
+
+@media (max-width: 1199px) {
+.text-klassen{
+  /*padding: 0 35px;*/
+  min-height: auto;
+  }
+}
+
+.title-klassen h3{
+  margin-bottom: 20px;
+}
+
+.title-about h3{
+  margin-bottom: 20px;
+}
+
+.sub-section{
+  margin-top: 50px;
 }
