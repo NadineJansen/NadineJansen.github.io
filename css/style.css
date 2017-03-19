@@ -671,6 +671,7 @@ label.valid {
 
 .footer a{
   color: #496174;
+  color: #95A8B7;
 }
 
 .footer a:hover{
@@ -688,7 +689,8 @@ label.valid {
 }
 
 .footer address {
-  color: rgba(85, 85, 85, 1);
+  /*color: rgba(85, 85, 85, 1);*/
+  color: #95A8B7;
   line-height: 24px;
   font-size: 13px;
 }
@@ -972,4 +974,25 @@ textarea.form-control {
 
 .foto{
   max-width: 250px;
+}
+
+.logo img{
+  display: inline;
+  width: auto;
+  height: 50px;
+  margin-top: -15px;
+}
+
+.nav{
+  margin-top: 8px;
+}
+
+.contact-detail{
+  /*margin-left: -10px;*/
+  margin-bottom: 0;
+  /*text-align: left;*/
+}
+
+@media (max-width: 1199px) {
+
 }
