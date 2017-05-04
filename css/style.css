@@ -102,7 +102,7 @@ a:hover,a:focus,.a:active {
 }
 
 .text-muted {
-  color: #95A8B7;
+  color: rgb(153, 155, 158) !important;
 }
 
 .text-light {
