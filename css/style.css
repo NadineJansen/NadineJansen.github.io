@@ -11,7 +11,7 @@
 [Table of contents]
 
 1. Reset
-2. Helper classes 
+2. Helper classes
 3. Buttons
 4. Dropdown
 5. Navbar Custom
@@ -161,6 +161,10 @@ a:hover,a:focus,.a:active {
 
 .bg-img-5{
   background: url("../images/home-bijgesneden2.jpg") center no-repeat;
+  background-size: cover;
+}
+.bg-img-6{
+  background: url("../images/thema-avonden.jpg") center no-repeat;
   background-size: cover;
 }
 
